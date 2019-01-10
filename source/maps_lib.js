@@ -18,11 +18,11 @@ var MapsLib = {
 
   //the encrypted Table ID of your Fusion Table (found under File => About)
   //NOTE: numeric IDs will be depricated soon
-  fusionTableId:      "1m4Ez9xyTGfY2CU6O-UgEcPzlS0rnzLU93e4Faa0",
+  fusionTableId:      "1FbGdYtXNSlnxuLd_Kih7PsOXs_QeVM-teRJxrH3i",
 
   //*New Fusion Tables Requirement* API key. found at https://code.google.com/apis/console/
   //*Important* this key is for demonstration purposes. please register your own.
-  googleApiKey:       "AIzaSyA3FQFrNr5W2OEVmuENqhb2MBB2JabdaOY",
+  googleApiKey:       "ABQIAAAAaYvyH4mrY2VAxuatgfqGbBSrM36IpC_CQoTA5lex6_vgowypaxQkA54BVwzaRDivBKx0hg-7oijcXg",
 
   //name of the location column in your Fusion Table.
   //NOTE: if your location column name has spaces in it, surround it with single quotes
@@ -36,7 +36,7 @@ var MapsLib = {
 
   searchRadius:       805,            //in meters ~ 1/2 mile
   defaultZoom:        11,             //zoom level when map is loaded (bigger is more zoomed in)
-  addrMarkerImage: 'http://derekeder.com/images/icons/blue-pushpin.png',
+  addrMarkerImage: 'https://s3.amazonaws.com/com.cartodb.users-assets.production/production/landsurveyors/assets/20170505043115app_images%252Fresizable%252F2778afa8-53e3-45ac-a8e2-eab9ce3b9794%252Fs1-gradechecker-problem.png',
   currentPinpoint: null,
 
   initialize: function() {
