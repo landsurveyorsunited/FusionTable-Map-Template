@@ -29,13 +29,13 @@ var MapsLib = {
   //example: locationColumn:     "'my location'",
   locationColumn:     "geometry",
 
-  map_centroid:       new google.maps.LatLng(41.8781136, -87.66677856445312), //center that your map defaults to
+  map_centroid:       new google.maps.LatLng(0, 0), //center that your map defaults to
   locationScope:      "chicago",      //geographical area appended to all address searches
   recordName:         "result",       //for showing number of results
   recordNamePlural:   "results",
 
-  searchRadius:       805,            //in meters ~ 1/2 mile
-  defaultZoom:        11,             //zoom level when map is loaded (bigger is more zoomed in)
+  searchRadius:       1805,            //in meters ~ 1/2 mile
+  defaultZoom:        4,             //zoom level when map is loaded (bigger is more zoomed in)
   addrMarkerImage: 'https://s3.amazonaws.com/com.cartodb.users-assets.production/production/landsurveyors/assets/20170505043115app_images%252Fresizable%252F2778afa8-53e3-45ac-a8e2-eab9ce3b9794%252Fs1-gradechecker-problem.png',
   currentPinpoint: null,
 
